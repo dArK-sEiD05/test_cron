@@ -1,0 +1,5 @@
+cron:
+  - description: "Run cron task every hour"
+    url: /cron-task
+    schedule: every 1 hours
+    target: default

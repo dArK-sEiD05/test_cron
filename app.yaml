@@ -1,0 +1,10 @@
+runtime: python311
+
+entrypoint: gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app
+
+handlers:
+  - url: /.*
+    script: auto
+
+env_variables:
+  ENVIRONMENT: "production"
