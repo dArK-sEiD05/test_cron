@@ -1,5 +1,5 @@
 cron:
-  - description: "Run cron task every  hour"
+  - description: "Run cron task every hour"
     url: /cron-task
     schedule: every 5 mins
     target: default
