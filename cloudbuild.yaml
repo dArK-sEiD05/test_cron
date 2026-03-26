@@ -8,8 +8,6 @@ steps:
       - "cron.yaml"
       - "--quiet"
 
-serviceAccount: "projects/gcp-just-for/serviceAccounts/gcp-just-for@appspot.gserviceaccount.com"
-
 options:
   logging: CLOUD_LOGGING_ONLY
 
