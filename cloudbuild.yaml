@@ -7,8 +7,10 @@ steps:
       - "app.yaml"
       - "cron.yaml"
       - "--quiet"
+
+serviceAccount: "projects/gcp-just-for/serviceAccounts/gcp-just-for@appspot.gserviceaccount.com"
+
 options:
   logging: CLOUD_LOGGING_ONLY
-  serviceAccount: "projects/gcp-just-for/serviceAccounts/7080181112720-compute@developer.gserviceaccount.com"
 
 timeout: "900s"
