@@ -7,5 +7,7 @@ steps:
       - "app.yaml"
       - "cron.yaml"
       - "--quiet"
-
+options:
+  logging: CLOUD_LOGGING_ONLY
+  
 timeout: "900s"
